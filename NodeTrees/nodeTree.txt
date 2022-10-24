@@ -1,0 +1,150 @@
+
+before walk main
+.   DCL # nodeTree.go:6:13
+.   .   NAME-fmt.a esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used SLICE-[]any tc(1) # print.go:293:14,nodeTree.go:6:13
+.   AS2 Def tc(1) # nodeTree.go:6:13
+.   AS2-Lhs
+.   .   NAME-fmt.a esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used SLICE-[]any tc(1) # print.go:293:14,nodeTree.go:6:13
+.   AS2-Rhs
+.   .   SLICELIT esc(no) Len:1 Implicit SLICE-[]any tc(1) # nodeTree.go:6:13
+.   .   SLICELIT-List
+.   .   .   CONVIFACE esc(h) Implicit any tc(1) # nodeTree.go:6:14
+.   .   .   .   NAME-main..stmp_0 Class:PEXTERN Offset:0 Readonly Used string tc(1) # nodeTree.go:6:14
+.   DCL # nodeTree.go:6:13
+.   .   NAME-fmt.n esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used int tc(1) # print.go:293:25,nodeTree.go:6:13
+.   AS tc(1) # nodeTree.go:6:13
+.   .   NAME-fmt.n esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used int tc(1) # print.go:293:25,nodeTree.go:6:13
+.   DCL # nodeTree.go:6:13
+.   .   NAME-fmt.err esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used error tc(1) # print.go:293:32,nodeTree.go:6:13
+.   AS tc(1) # nodeTree.go:6:13
+.   .   NAME-fmt.err esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used error tc(1) # print.go:293:32,nodeTree.go:6:13
+.   INLMARK # +nodeTree.go:6:13
+.   DCL tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-fmt..autotmp_0 esc(no) Class:PAUTO Offset:0 InlLocal OnStack Used int tc(1) # print.go:294:17,nodeTree.go:6:13
+.   AS tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-fmt..autotmp_0 esc(no) Class:PAUTO Offset:0 InlLocal OnStack Used int tc(1) # print.go:294:17,nodeTree.go:6:13
+.   DCL tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-fmt..autotmp_1 esc(no) Class:PAUTO Offset:0 InlLocal OnStack Used error tc(1) # print.go:294:17,nodeTree.go:6:13
+.   AS tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-fmt..autotmp_1 esc(no) Class:PAUTO Offset:0 InlLocal OnStack Used error tc(1) # print.go:294:17,nodeTree.go:6:13
+.   AS tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-main..autotmp_6 esc(N) Class:PAUTO Offset:0 AutoTemp OnStack Used error tc(1) # print.go:294:17,nodeTree.go:6:13
+.   AS2FUNC tc(1) # print.go:294:17,nodeTree.go:6:13
+.   AS2FUNC-Lhs
+.   .   NAME-main..autotmp_5 esc(N) Class:PAUTO Offset:0 AutoTemp OnStack Used int tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-main..autotmp_6 esc(N) Class:PAUTO Offset:0 AutoTemp OnStack Used error tc(1) # print.go:294:17,nodeTree.go:6:13
+.   AS2FUNC-Rhs
+.   .   CALLFUNC IsDDD STRUCT-(int, error) tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   .   NAME-fmt.Fprintln Class:PFUNC Offset:0 FUNC-func(io.Writer, ...any) (int, error) tc(1) # print.go:282:6
+.   .   CALLFUNC-Args
+.   .   .   CONVIFACE io.Writer tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   .   .   NAME-os.Stdout Class:PEXTERN Offset:0 PTR-*os.File tc(1) # file.go:66:2
+.   .   .   NAME-fmt.a esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used SLICE-[]any tc(1) # print.go:293:14,nodeTree.go:6:13
+.   AS2 tc(1) # print.go:294:17,nodeTree.go:6:13
+.   AS2-Lhs
+.   .   NAME-fmt..autotmp_0 esc(no) Class:PAUTO Offset:0 InlLocal OnStack Used int tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-fmt..autotmp_1 esc(no) Class:PAUTO Offset:0 InlLocal OnStack Used error tc(1) # print.go:294:17,nodeTree.go:6:13
+.   AS2-Rhs
+.   .   NAME-main..autotmp_5 esc(N) Class:PAUTO Offset:0 AutoTemp OnStack Used int tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-main..autotmp_6 esc(N) Class:PAUTO Offset:0 AutoTemp OnStack Used error tc(1) # print.go:294:17,nodeTree.go:6:13
+.   VARKILL tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-main..autotmp_6 esc(N) Class:PAUTO Offset:0 AutoTemp OnStack Used error tc(1) # print.go:294:17,nodeTree.go:6:13
+.   VARKILL tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-main..autotmp_5 esc(N) Class:PAUTO Offset:0 AutoTemp OnStack Used int tc(1) # print.go:294:17,nodeTree.go:6:13
+.   AS2 tc(1) # nodeTree.go:6:13
+.   AS2-Lhs
+.   .   NAME-fmt.n esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used int tc(1) # print.go:293:25,nodeTree.go:6:13
+.   .   NAME-fmt.err esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used error tc(1) # print.go:293:32,nodeTree.go:6:13
+.   AS2-Rhs
+.   .   NAME-fmt..autotmp_0 esc(no) Class:PAUTO Offset:0 InlLocal OnStack Used int tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-fmt..autotmp_1 esc(no) Class:PAUTO Offset:0 InlLocal OnStack Used error tc(1) # print.go:294:17,nodeTree.go:6:13
+.   GOTO main..i0 tc(1) # nodeTree.go:6:13
+.   LABEL main..i0 # nodeTree.go:6:13
+after walk main
+.   DCL # nodeTree.go:6:13
+.   .   NAME-fmt.a esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used SLICE-[]any tc(1) # print.go:293:14,nodeTree.go:6:13
+.   BLOCK # nodeTree.go:6:13
+.   BLOCK-List
+.   .   AS tc(1) # nodeTree.go:6:13
+.   .   .   NAME-main..autotmp_8 esc(N) Class:PAUTO Offset:0 Addrtaken AutoTemp OnStack Used ARRAY-[1]any tc(1) # nodeTree.go:6:13
+.   .   AS tc(1) # nodeTree.go:6:13
+.   .   .   NAME-main..autotmp_7 esc(N) Class:PAUTO Offset:0 AutoTemp OnStack Used PTR-*[1]any tc(1) # nodeTree.go:6:13
+.   .   .   ADDR PTR-*[1]any tc(1) # nodeTree.go:6:13
+.   .   .   .   NAME-main..autotmp_8 esc(N) Class:PAUTO Offset:0 Addrtaken AutoTemp OnStack Used ARRAY-[1]any tc(1) # nodeTree.go:6:13
+.   .   BLOCK tc(1) # nodeTree.go:6:14
+.   .   BLOCK-List
+.   .   .   AS tc(1) # nodeTree.go:6:14
+.   .   .   .   INDEX Bounded any tc(1) # nodeTree.go:6:13
+.   .   .   .   .   DEREF Implicit ARRAY-[1]any tc(1) # nodeTree.go:6:13
+.   .   .   .   .   .   NAME-main..autotmp_7 esc(N) Class:PAUTO Offset:0 AutoTemp OnStack Used PTR-*[1]any tc(1) # nodeTree.go:6:13
+.   .   .   .   .   LITERAL-0 int tc(1) # nodeTree.go:6:13
+.   .   .   .   EFACE any tc(1) # nodeTree.go:6:14
+.   .   .   .   .   ADDR PTR-*uint8 tc(1) # nodeTree.go:6:14
+.   .   .   .   .   .   LINKSYMOFFSET Offset:0 uint8 tc(1)
+.   .   .   .   .   ADDR PTR-*string tc(1) # nodeTree.go:6:14
+.   .   .   .   .   .   NAME-main..stmp_0 Class:PEXTERN Offset:0 Addrtaken Readonly Used string tc(1) # nodeTree.go:6:14
+.   .   BLOCK tc(1) # nodeTree.go:6:14
+.   .   BLOCK-List
+.   .   .   AS tc(1) # nodeTree.go:6:14
+.   .   .   .   NAME-fmt.a esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used SLICE-[]any tc(1) # print.go:293:14,nodeTree.go:6:13
+.   .   .   .   SLICEARR SLICE-[]any tc(1) # nodeTree.go:6:14
+.   .   .   .   .   NAME-main..autotmp_7 esc(N) Class:PAUTO Offset:0 AutoTemp OnStack Used PTR-*[1]any tc(1) # nodeTree.go:6:13
+.   .   BLOCK # nodeTree.go:6:13
+.   DCL # nodeTree.go:6:13
+.   .   NAME-fmt.n esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used int tc(1) # print.go:293:25,nodeTree.go:6:13
+.   AS tc(1) # nodeTree.go:6:13
+.   .   NAME-fmt.n esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used int tc(1) # print.go:293:25,nodeTree.go:6:13
+.   DCL # nodeTree.go:6:13
+.   .   NAME-fmt.err esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used error tc(1) # print.go:293:32,nodeTree.go:6:13
+.   AS tc(1) # nodeTree.go:6:13
+.   .   NAME-fmt.err esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used error tc(1) # print.go:293:32,nodeTree.go:6:13
+.   INLMARK # +nodeTree.go:6:13
+.   DCL tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-fmt..autotmp_0 esc(no) Class:PAUTO Offset:0 InlLocal OnStack Used int tc(1) # print.go:294:17,nodeTree.go:6:13
+.   AS tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-fmt..autotmp_0 esc(no) Class:PAUTO Offset:0 InlLocal OnStack Used int tc(1) # print.go:294:17,nodeTree.go:6:13
+.   DCL tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-fmt..autotmp_1 esc(no) Class:PAUTO Offset:0 InlLocal OnStack Used error tc(1) # print.go:294:17,nodeTree.go:6:13
+.   AS tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-fmt..autotmp_1 esc(no) Class:PAUTO Offset:0 InlLocal OnStack Used error tc(1) # print.go:294:17,nodeTree.go:6:13
+.   AS tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-main..autotmp_6 esc(N) Class:PAUTO Offset:0 AutoTemp OnStack Used error tc(1) # print.go:294:17,nodeTree.go:6:13
+.   BLOCK-init
+.   .   CALLFUNC IsDDD Walked STRUCT-(int, error) tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   .   NAME-fmt.Fprintln Class:PFUNC Offset:0 FUNC-func(io.Writer, ...any) (int, error) tc(1) # print.go:282:6
+.   .   CALLFUNC-Args
+.   .   .   EFACE io.Writer tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   .   .   ADDR PTR-*uint8 tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   .   .   .   LINKSYMOFFSET Offset:0 uint8 tc(1)
+.   .   .   .   NAME-os.Stdout Class:PEXTERN Offset:0 PTR-*os.File tc(1) # file.go:66:2
+.   .   .   NAME-fmt.a esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used SLICE-[]any tc(1) # print.go:293:14,nodeTree.go:6:13
+.   BLOCK # print.go:294:17,nodeTree.go:6:13
+.   BLOCK-List
+.   .   AS # print.go:294:17,nodeTree.go:6:13
+.   .   .   NAME-main..autotmp_5 esc(N) Class:PAUTO Offset:0 AutoTemp OnStack Used int tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   .   RESULT int tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   AS # print.go:294:17,nodeTree.go:6:13
+.   .   .   NAME-main..autotmp_6 esc(N) Class:PAUTO Offset:0 AutoTemp OnStack Used error tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   .   RESULT Index:1 error tc(1) # print.go:294:17,nodeTree.go:6:13
+.   BLOCK # print.go:294:17,nodeTree.go:6:13
+.   BLOCK-List
+.   .   AS tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   .   NAME-fmt..autotmp_0 esc(no) Class:PAUTO Offset:0 InlLocal OnStack Used int tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   .   NAME-main..autotmp_5 esc(N) Class:PAUTO Offset:0 AutoTemp OnStack Used int tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   AS tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   .   NAME-fmt..autotmp_1 esc(no) Class:PAUTO Offset:0 InlLocal OnStack Used error tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   .   NAME-main..autotmp_6 esc(N) Class:PAUTO Offset:0 AutoTemp OnStack Used error tc(1) # print.go:294:17,nodeTree.go:6:13
+.   VARKILL tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-main..autotmp_6 esc(N) Class:PAUTO Offset:0 AutoTemp OnStack Used error tc(1) # print.go:294:17,nodeTree.go:6:13
+.   VARKILL tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   NAME-main..autotmp_5 esc(N) Class:PAUTO Offset:0 AutoTemp OnStack Used int tc(1) # print.go:294:17,nodeTree.go:6:13
+.   BLOCK # nodeTree.go:6:13
+.   BLOCK-List
+.   .   AS tc(1) # nodeTree.go:6:13
+.   .   .   NAME-fmt.n esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used int tc(1) # print.go:293:25,nodeTree.go:6:13
+.   .   .   NAME-fmt..autotmp_0 esc(no) Class:PAUTO Offset:0 InlLocal OnStack Used int tc(1) # print.go:294:17,nodeTree.go:6:13
+.   .   AS tc(1) # nodeTree.go:6:13
+.   .   .   NAME-fmt.err esc(no) Class:PAUTO Offset:0 InlFormal OnStack Used error tc(1) # print.go:293:32,nodeTree.go:6:13
+.   .   .   NAME-fmt..autotmp_1 esc(no) Class:PAUTO Offset:0 InlLocal OnStack Used error tc(1) # print.go:294:17,nodeTree.go:6:13
+.   GOTO main..i0 tc(1) # nodeTree.go:6:13
+.   LABEL main..i0 # nodeTree.go:6:13
